@@ -1,4 +1,4 @@
-# Viva - Beautiful Augmented Reality Charts for iOS - Built with ARKit and SceneKit
+# Viva - Augmented Reality Charts for iOS - Built with ARKit and SceneKit
 
 <p align="center"><img src="https://raw.github.com/txaiwieser/Viva/master/screenshots/viva_banner.png"/></p>  
 
@@ -102,7 +102,7 @@ Features
 =======
 
 **Core features:**
- - 8 different chart types
+ - 4 different chart types
  - Scaling
  - Dragging / Panning (with touch-gesture)
  - Inspect values
