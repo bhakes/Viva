@@ -7,9 +7,20 @@
 
 ## Project Details
 
-![Demo Gif](https://github.com/txaiwieser/Viva/raw/master/screenshots/viva_showcase_00.gif)
-[1](https://github.com/txaiwieser/Viva/raw/master/screenshots/viva_showcase_01.png)
-[2](https://github.com/txaiwieser/Viva/raw/master/screenshots/viva_showcase_02.png)
+<p align="center">
+  <img height="400" src="https://github.com/txaiwieser/Viva/raw/master/screenshots/viva_showcase_00.gif">
+  <br>
+</p>
+
+<p align="center">
+  <img height="400" src="https://github.com/txaiwieser/Viva/raw/master/screenshots/viva_showcase_01.png">
+  <br>
+</p>
+
+<p align="center">
+  <img height="400" src="https://github.com/txaiwieser/Viva/raw/master/screenshots/viva_showcase_02.png">
+  <br>
+</p>
 
 ### Requirements
 - Optimized for A9 and A10 processors (ARKit)
@@ -108,13 +119,25 @@ Features
 **Chart types:**
 
  - **Line Chart**
-![alt tag](https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_linechart.png)
+<p align="center">
+  <img height="400" src="https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_linechart.png">
+  <br>
+</p>
 
  - **Bar Chart**
-![alt tag](https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_barchart.png)
+<p align="center">
+  <img height="400" src="https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_barchart.png">
+  <br>
+</p>
 
  - **Pie Chart**
-![alt tag](https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_piechart.png)
+<p align="center">
+  <img height="400" src="https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_piechart.png">
+  <br>
+</p>
 
  - **ScatterChart**
-![alt tag](https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_scatterchart.png)
+<p align="center">
+  <img height="400" src="https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_scatterchart.png">
+  <br>
+</p>
