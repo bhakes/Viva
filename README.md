@@ -1,17 +1,17 @@
 # Viva - Augmented Reality Charts for iOS - Built with ARKit and SceneKit
 
-<p align="center"><img src="https://raw.github.com/txaiwieser/Viva/master/screenshots/viva_banner.png"/></p>  
+<p align="center"><img src="https://github.com/txaiwieser/Viva/raw/master/screenshots/viva_banner.png"/></p>  
 
 **Viva** is a library making it easy to create beautiful charts tailored for augmented reality. 
 
 
 ## Project Details
 
-![Demo Gif](https://raw.github.com/txaiwieser/Viva/master/screenshots/viva_showcase_00.gif)
-[1](https://raw.github.com/txaiwieser/Viva/master/screenshots/viva_showcase_01.png)
-[2](https://raw.github.com/txaiwieser/Viva/master/screenshots/viva_showcase_02.png)
-[3](https://raw.github.com/txaiwieser/Viva/master/screenshots/viva_showcase_03.png)
-[4](https://raw.github.com/txaiwieser/Viva/master/screenshots/viva_showcase_04.png)
+![Demo Gif](https://github.com/txaiwieser/Viva/raw/master/screenshots/viva_showcase_00.gif)
+[1](https://github.com/txaiwieser/Viva/raw/master/screenshots/viva_showcase_01.png)
+[2](https://github.com/txaiwieser/Viva/raw/master/screenshots/viva_showcase_02.png)
+[3](https://github.com/txaiwieser/Viva/raw/master/screenshots/viva_showcase_03.png)
+[4](https://github.com/txaiwieser/Viva/raw/master/screenshots/viva_showcase_04.png)
 
 ### Requirements
 - Optimized for A9 and A10 processors (ARKit)
@@ -110,13 +110,13 @@ Features
 **Chart types:**
 
  - **Line Chart**
-![alt tag](https://raw.github.com/txaiwieser/Viva/master/screenshots/charttype_example_linechart.png)
+![alt tag](https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_linechart.png)
 
  - **Bar Chart**
-![alt tag](https://raw.github.com/txaiwieser/Viva/master/screenshots/charttype_example_barchart.png)
+![alt tag](https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_barchart.png)
 
  - **Pie Chart**
-![alt tag](https://raw.github.com/txaiwieser/Viva/master/screenshots/charttype_example_piechart.png)
+![alt tag](https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_piechart.png)
 
  - **ScatterChart**
-![alt tag](https://raw.github.com/txaiwieser/Viva/master/screenshots/charttype_example_scatterchart.png)
+![alt tag](https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_scatterchart.png)
