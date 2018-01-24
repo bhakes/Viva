@@ -10,8 +10,6 @@
 ![Demo Gif](https://github.com/txaiwieser/Viva/raw/master/screenshots/viva_showcase_00.gif)
 [1](https://github.com/txaiwieser/Viva/raw/master/screenshots/viva_showcase_01.png)
 [2](https://github.com/txaiwieser/Viva/raw/master/screenshots/viva_showcase_02.png)
-[3](https://github.com/txaiwieser/Viva/raw/master/screenshots/viva_showcase_03.png)
-[4](https://github.com/txaiwieser/Viva/raw/master/screenshots/viva_showcase_04.png)
 
 ### Requirements
 - Optimized for A9 and A10 processors (ARKit)
