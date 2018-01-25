@@ -46,6 +46,13 @@ ARKit is available on any iOS 11 device, but the world tracking features that en
 ### Sample App
 The Viva-Example App included in this projects demonstrates one way of setting up and using **Viva**. Give it a try to see what can be accomplished! 
 
+How to execute the Viva-Example App:
+1) Open the Viva.xcproject
+2) Select Viva-Example as your build target
+3) It should run the "NON AR" version on simulator just fine.
+4) To run on device you must set the provisioning profile and certificate.
+
+
 ## Getting Started
 
 ### Installation
@@ -119,25 +126,17 @@ Features
 **Chart types:**
 
  - **Line Chart**
-<p align="center">
-  <img height="400" src="https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_linechart.png">
-  <br>
-</p>
+<img align="left" height="400" src="https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_linechart.png">
+<br>
 
- - **Bar Chart**
-<p align="center">
-  <img height="400" src="https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_barchart.png">
-  <br>
-</p>
+- **Bar Chart**
+<img align="left" height="400" src="https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_barchart.png">
+<br>
 
- - **Pie Chart**
-<p align="center">
-  <img height="400" src="https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_piechart.png">
-  <br>
-</p>
+- **Pie Chart**
+<img align="left" height="400" src="https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_piechart.png">
+<br>
 
- - **ScatterChart**
-<p align="center">
-  <img height="400" src="https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_scatterchart.png">
-  <br>
-</p>
+- **ScatterChart**
+<img align="left" height="400" src="https://github.com/txaiwieser/Viva/raw/master/screenshots/charttype_example_scatterchart.png">
+<br>
