@@ -9,7 +9,7 @@ import UIKit
 import ARKit
 
 extension ARViewController {
-    public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    open override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         guard let object = VirtualObjectsManager.shared.getVirtualObjectSelected() else {
             return
         }
@@ -23,7 +23,7 @@ extension ARViewController {
         displayVirtualObjectTransform()
     }
     
-    public override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+    open override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         if !VirtualObjectsManager.shared.isAVirtualObjectPlaced() {
             return
         }
@@ -31,7 +31,7 @@ extension ARViewController {
         displayVirtualObjectTransform()
     }
     
-    public override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    open override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         if !VirtualObjectsManager.shared.isAVirtualObjectPlaced() {
 //            chooseObject(button: addObjectButton)
             return
@@ -40,7 +40,7 @@ extension ARViewController {
         currentGesture = currentGesture?.updateGestureFromTouches(touches, .touchEnded)
     }
     
-    public override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
+    open override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
         if !VirtualObjectsManager.shared.isAVirtualObjectPlaced() {
             return
         }

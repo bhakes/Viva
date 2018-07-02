@@ -9,7 +9,7 @@ import UIKit
 import SceneKit
 import ARKit
 
-public class ARViewController: UIViewController {
+open class ARViewController: UIViewController {
     var sceneView: ARSCNView {
         return view as! ARSCNView
     }
@@ -39,13 +39,13 @@ public class ARViewController: UIViewController {
     
     public var singleChart: BaseChartNode?
     
-    public override func loadView() {
+    open override func loadView() {
         view = ARSCNView()
         view.backgroundColor = .black
         view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
     }
     
-    public override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         
         setupScene()
@@ -58,13 +58,13 @@ public class ARViewController: UIViewController {
         showDebugVisuals = true
     }
     
-    public override func viewDidAppear(_ animated: Bool) {
+    open override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         UIApplication.shared.isIdleTimerDisabled = true
         restartPlaneDetection()
     }
     
-    public override func viewWillDisappear(_ animated: Bool) {
+    open override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         sceneView.session.pause()
     }
@@ -186,8 +186,6 @@ public class ARViewController: UIViewController {
         toolTip.0.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
         toolTip.0.bottomAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
         
-        
-        
     }
     
     func refreshFeaturePoints() {
@@ -204,7 +202,7 @@ public class ARViewController: UIViewController {
         }
     }
     
-    public override var prefersStatusBarHidden: Bool {
+    open override var prefersStatusBarHidden: Bool {
         return false
     }
     
