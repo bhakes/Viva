@@ -12,7 +12,7 @@ public class LineChartNode: BaseChartNode {
     public var data: LineChartData!
     
     public override init() {
-        super.init(thumbImageFilename: "lineChartIcon", title: "Line Chart")
+        super.init(thumbImageFilename: "line", title: "Gráfico de Linha")
         self.chartLength = 80
         self.chartWidth = 200
         self.chartHeight = 160
@@ -66,7 +66,7 @@ public class LineChartNode: BaseChartNode {
     public override func highlightText(node: SCNNode) -> String? {
         if let indexes = self.indexes(forSetNodeName: node.name) {
             let value = data.dataSets[indexes]
-            let text = "v: \(indexes)"
+            let text = "Valor: \(indexes)"
             return text
         } else {
             return nil

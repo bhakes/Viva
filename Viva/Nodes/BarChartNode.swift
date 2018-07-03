@@ -12,7 +12,7 @@ public class BarChartNode: BaseChartNode {
     public var data: BarChartData!
     
     public override init() {
-        super.init(thumbImageFilename: "barChartIcon", title: "Bar Chart")
+        super.init(thumbImageFilename: "bar", title: "Gráfico de Barras")
         self.chartLength = 20
         self.chartWidth = 200
         self.chartHeight = 160
@@ -144,7 +144,7 @@ public class BarChartNode: BaseChartNode {
     public override func highlightText(node: SCNNode) -> String? {
         if let indexes = self.indexes(forNodeName: node.name) {
             let value = data.dataSets[indexes.0].values[indexes.1]
-            let text = "x: \(value.x)\ny: \(value.y)"
+            let text = "Coluna: \(value.x)\nValor: \(value.y)"
             return text
         } else {
             return nil

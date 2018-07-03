@@ -12,7 +12,7 @@ public class ScatterChartNode: BaseChartNode {
     public var data: ScatterChartData!
     
     public override init() {
-        super.init(thumbImageFilename: "scatterChartIcon", title: "Scatter Chart")
+        super.init(thumbImageFilename: "scatter", title: "Gráfico de Disperção")
     }
     
     public override func loadModel() {

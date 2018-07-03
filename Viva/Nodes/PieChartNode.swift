@@ -15,7 +15,7 @@ public class PieChartNode: BaseChartNode {
     var valuesColors: [UIColor] = [.random()]
 
     public override init() {
-        super.init(thumbImageFilename: "pieChartIcon", title: "Pie Chart")
+        super.init(thumbImageFilename: "pie", title: "Gráfico de Pizza")
         self.chartHeight = 60
         self.chartWidth = 100
         self.chartLength = 100

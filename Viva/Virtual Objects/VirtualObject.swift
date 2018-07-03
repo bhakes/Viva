@@ -4,7 +4,8 @@ import ARKit
 
 public class VirtualObject: SCNNode {
 	static let ROOT_NAME = "Virtual object root node"
-	var thumbImage: UIImage!
+//    var thumbImage: UIImage
+    var thumbImageName: String = ""
 	public var title: String = ""
 	var modelLoaded: Bool = false
 	var id: Int!
@@ -17,10 +18,11 @@ public class VirtualObject: SCNNode {
 	}
 
 	init(thumbImageFilename: String, title: String) {
-		super.init()
+        self.thumbImageName = thumbImageFilename
+        super.init()
 		self.id = VirtualObjectsManager.shared.generateUid()
 		self.name = VirtualObject.ROOT_NAME
-        self.thumbImage = UIImage(named: thumbImageFilename, in: Bundle(for: VirtualObject.self), compatibleWith: nil)
+//        self.thumbImage = UIImage(named: thumbImageFilename, in: Bundle(for: VirtualObject.self), compatibleWith: nil)
 		self.title = title
 	}
 

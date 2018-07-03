@@ -111,7 +111,15 @@ open class ARViewController: UIViewController {
     
     private var disableDebugButton: UIBarButtonItem!
     @IBAction func disableDebug(sender: UIBarButtonItem) {
-        showDebugVisuals = !showDebugVisuals
+        let vc = UIAlertController(title: "Desativar informações de posição",
+                                  message: "Informações de detecção de planos não serão mais visiveis.", preferredStyle: UIAlertControllerStyle.alert)
+        
+        vc.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: { [weak self] _ in
+            guard let `self` = self else { return }
+            self.showDebugVisuals = !self.showDebugVisuals
+        }))
+        vc.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: nil))
+        self.present(vc, animated: true, completion: nil)
     }
     
     private var restartExperienceButton: UIBarButtonItem!
@@ -151,7 +159,7 @@ open class ARViewController: UIViewController {
         
         restartExperienceButton = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(restartExperience))
         
-        disableDebugButton = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: #selector(disableDebug))
+        disableDebugButton = UIBarButtonItem(image: UIImage(named: "info"), style: UIBarButtonItemStyle.plain, target: self, action: #selector(disableDebug))
         
         addObjectButton.tintColor = .white
         restartExperienceButton.tintColor = .white
@@ -171,7 +179,7 @@ open class ARViewController: UIViewController {
         
         self.view.addSubview(bottomBar)
         bottomBar.translatesAutoresizingMaskIntoConstraints = false
-        bottomBar.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
+        bottomBar.bottomAnchor.constraint(equalTo: self.view.layoutMarginsGuide.bottomAnchor).isActive = true
         bottomBar.leftAnchor.constraint(equalTo: self.view.leftAnchor).isActive = true
         bottomBar.rightAnchor.constraint(equalTo: self.view.rightAnchor).isActive = true
         
